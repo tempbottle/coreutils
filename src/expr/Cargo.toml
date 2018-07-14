@@ -10,7 +10,8 @@ path = "expr.rs"
 
 [dependencies]
 libc = "0.2.42"
-onig = "3.1.1"
+onig = {git="https://github.com/tempbottle/rust-onig"}
+#onig = {path="../../../rust-onig"}
 uucore = { path="../uucore" }
 
 [[bin]]
